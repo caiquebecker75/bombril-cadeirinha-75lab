@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Móvel Cadeirinha 220 · Bombril</title>
+<meta name="description" content="75 LAB · Móvel Cadeirinha Família Bombril na versão de 220 cm: animação, medidas e capacidade de carga.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Móvel Cadeirinha 220 · Bombril">
+<meta property="og:description" content="Versão de 220 cm: animação, medidas e capacidade de carga.">
+<meta property="og:image" content="https://projetos.75lab.com.br/bombril-cadeirinha-75lab/220/og.jpg">
+<link rel="icon" href="assets/75lab-lime.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0B0B0D;overflow:hidden;-webkit-tap-highlight-color:transparent}
+#palco{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:0 0}
+.s{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;opacity:0;visibility:hidden;transition:opacity .6s ease,visibility 0s linear .6s}
+.s.on{opacity:1;visibility:visible;transition:opacity .6s ease}
+.s h1,.s h2,.s h3,.s p{margin:0}
+.s img,.s video{display:block}
+.s [data-build-in]{opacity:0}
+.s.on [data-build-in]{animation:var(--anim) .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d)}
+@keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pop{0%{opacity:0;transform:scale(.85)}70%{opacity:1;transform:scale(1.03)}100%{opacity:1;transform:none}}
+@keyframes left{from{opacity:0;transform:translateX(-60px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.s.on [data-build-in]{animation:none;opacity:1}.s{transition:none}}
+#nav{position:fixed;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;gap:14px;padding:10px max(16px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));font:700 13px/1 'Space Mono',monospace;letter-spacing:.08em;color:#C9C8BE;opacity:.0;transition:opacity .3s}
+body:hover #nav,#nav:focus-within,body.toque #nav{opacity:1}
+#nav button{width:40px;height:40px;border:2px solid #C9C8BE;background:rgba(16,16,19,.75);color:#F2F1E9;font:700 18px/1 'Space Mono',monospace;cursor:pointer}
+#nav button:hover{background:#F9DC0A;color:#101013;border-color:#F9DC0A}
+#pos{min-width:70px;text-align:center;background:rgba(16,16,19,.75);padding:12px 10px}
+#barra{position:fixed;left:0;top:0;height:3px;background:#F9DC0A;transition:width .5s}
+</style>
+</head>
+<body>
+<div id="barra"></div>
+<main id="palco">
+<section class="s" data-i="0" id="capa" style="background:#101013;color:#F2F1E9;font-family:'Space Grotesk', Arial, sans-serif;padding:128px">
+<img src="assets/capa.jpg" alt="Móvel cadeirinha Bombril de 220 cm abastecido, vista em perspectiva" style="position:absolute;left:820px;top:0px;width:1100px;height:1080px;object-fit:cover">
+<div style="position:absolute;left:820px;top:0px;width:90px;height:1080px;background:linear-gradient(90deg, #101013 0%, rgba(16,16,19,0) 100%)"></div>
+<p style="position:absolute;left:128px;top:128px;width:700px;font-family:'Space Mono', 'Courier New', monospace;font-size:24px;letter-spacing:3px;text-transform:uppercase;color:#F9DC0A">BOM002 · MPDV Bombril</p>
+<h1 data-build-in="rise 1 auto" style="position:absolute;left:128px;top:200px;width:760px;font-family:'Big Shoulders Display', Impact, sans-serif;font-size:160px;font-weight:900;line-height:0.92;text-transform:uppercase;color:#F2F1E9">Móvel Cadeirinha</h1>
+<p data-build-in="rise 2 auto" style="position:absolute;left:128px;top:530px;width:660px;font-size:36px;line-height:1.35;color:#C9C8BE">Família Bombril, agora com 220 cm de altura</p>
+<div data-build-in="rise 3 auto" style="position:absolute;left:128px;top:640px;width:690px;display:flex;flex-direction:column;gap:8px;border-top:2px solid #F9DC0A;padding:28px 0px 0px 0px">
+<p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:104px;font-weight:900;line-height:1;white-space:nowrap;color:#F9DC0A">275 → 220 cm</p>
+<p style="font-size:26px;line-height:1.4;color:#C9C8BE">Mais baixo, com os mesmos 4 níveis de exposição</p>
+</div>
+<img src="assets/75lab-lime.png" alt="75 LAB" style="position:absolute;left:128px;top:952px;width:92px;height:60px;object-fit:contain">
+<p style="position:absolute;left:250px;top:966px;width:520px;font-family:'Space Mono', 'Courier New', monospace;font-size:24px;letter-spacing:2px;color:#8E8D84">NOV 2026 · REV. R8</p>
+</section>
+<section class="s" data-i="1" id="movel" style="background:#F2F1E9;color:#101013;font-family:'Space Grotesk', Arial, sans-serif;padding:128px">
+<video src="assets/animacao.mp4" poster="assets/animacao.jpg" aria-label="Animação do móvel: estrutura, entrada da comunicação e abastecimento, depois o caminho inverso" style="position:absolute;left:128px;top:128px;width:1030px;height:824px;object-fit:cover;border:2px solid #101013" autoplay muted loop playsinline preload="auto"></video>
+<p style="position:absolute;left:1222px;top:128px;width:570px;font-family:'Space Mono', 'Courier New', monospace;font-size:24px;letter-spacing:3px;text-transform:uppercase;color:#6B6A61">01 · O móvel</p>
+<h2 style="position:absolute;left:1222px;top:176px;width:570px;font-family:'Big Shoulders Display', Impact, sans-serif;font-size:96px;font-weight:900;line-height:0.95;text-transform:uppercase;color:#101013">O móvel em 220 cm</h2>
+<div data-build-in="rise 1 auto" style="position:absolute;left:1222px;top:470px;width:570px;display:grid;grid-template-columns:1fr 1fr;gap:0px;border-top:2px solid #101013">
+<div style="display:flex;flex-direction:column;gap:4px;padding:20px 16px 20px 0px;border-bottom:2px solid #101013;border-right:2px solid #101013">
+<p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:72px;font-weight:900;line-height:1">220</p>
+<p style="font-size:24px;color:#55544C">cm de altura (era 275)</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px;padding:20px 0px 20px 24px;border-bottom:2px solid #101013">
+<p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:72px;font-weight:900;line-height:1">−55</p>
+<p style="font-size:24px;color:#55544C">cm a menos na altura</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px;padding:20px 16px 20px 0px;border-bottom:2px solid #101013;border-right:2px solid #101013">
+<p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:72px;font-weight:900;line-height:1">4</p>
+<p style="font-size:24px;color:#55544C">níveis mantidos</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:4px;padding:20px 0px 20px 24px;border-bottom:2px solid #101013">
+<p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:72px;font-weight:900;line-height:1">952</p>
+<p style="font-size:24px;color:#55544C">embalagens expostas</p>
+</div>
+</div>
+<p data-build-in="rise 2 auto" style="position:absolute;left:1222px;top:800px;width:570px;font-size:24px;line-height:1.45;color:#55544C">Medidas gerais: 220 L × 110 P × 220 A cm. A redução saiu do rodapé, do módulo superior e das testeiras.</p>
+</section>
+<section class="s" data-i="2" id="capacidade" style="background:#101013;color:#F2F1E9;font-family:'Space Grotesk', Arial, sans-serif;padding:128px 128px 160px">
+<img src="assets/vista.jpg" alt="Móvel abastecido, vista em perspectiva pelo lado direito" style="position:absolute;left:1180px;top:0px;width:740px;height:1080px;object-fit:cover">
+<p style="position:absolute;left:128px;top:128px;width:900px;font-family:'Space Mono', 'Courier New', monospace;font-size:24px;letter-spacing:3px;text-transform:uppercase;color:#F9DC0A">02 · Capacidade</p>
+<h2 style="position:absolute;left:128px;top:176px;width:980px;font-family:'Big Shoulders Display', Impact, sans-serif;font-size:96px;font-weight:900;line-height:0.95;text-transform:uppercase;color:#F2F1E9">Quanto ele carrega</h2>
+<p data-build-in="pop 1 auto" style="position:absolute;left:128px;top:300px;width:520px;font-family:'Big Shoulders Display', Impact, sans-serif;font-size:120px;font-weight:900;line-height:1;color:#F9DC0A">≈ 56 kg</p>
+<p data-build-in="fade 1 auto" style="position:absolute;left:560px;top:322px;width:540px;font-size:28px;line-height:1.35;color:#C9C8BE">de produto com o móvel cheio, em <b>952 embalagens</b></p>
+<div data-build-in="left 2 auto" style="position:absolute;left:128px;top:480px;width:1000px;height:52px;display:flex;flex-direction:row;align-items:center;gap:20px"><p style="width:300px;font-size:26px;line-height:1.2;color:#F2F1E9">Cesto central<br><span style="color:#8E8D84">342 Bombril</span></p><div style="width:560px;height:30px;background:#F9DC0A"></div><p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:40px;font-weight:900;line-height:1;color:#F9DC0A">22 kg</p></div>
+<div data-build-in="left 3 auto" style="position:absolute;left:128px;top:556px;width:1000px;height:52px;display:flex;flex-direction:row;align-items:center;gap:20px"><p style="width:300px;font-size:26px;line-height:1.2;color:#F2F1E9">Cestos dos braços<br><span style="color:#8E8D84">240 Bombril</span></p><div style="width:407px;height:30px;background:#F9DC0A"></div><p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:40px;font-weight:900;line-height:1;color:#F9DC0A">16 kg</p></div>
+<div data-build-in="left 4 auto" style="position:absolute;left:128px;top:632px;width:1000px;height:52px;display:flex;flex-direction:row;align-items:center;gap:20px"><p style="width:300px;font-size:26px;line-height:1.2;color:#F2F1E9">Prateleiras centrais<br><span style="color:#8E8D84">196 esponjas</span></p><div style="width:255px;height:30px;background:#F9DC0A"></div><p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:40px;font-weight:900;line-height:1;color:#F9DC0A">10 kg</p></div>
+<div data-build-in="left 5 auto" style="position:absolute;left:128px;top:708px;width:1000px;height:52px;display:flex;flex-direction:row;align-items:center;gap:20px"><p style="width:300px;font-size:26px;line-height:1.2;color:#F2F1E9">Baias laterais<br><span style="color:#8E8D84">174 esponjas</span></p><div style="width:229px;height:30px;background:#F9DC0A"></div><p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:40px;font-weight:900;line-height:1;color:#F9DC0A">9 kg</p></div>
+<p style="position:absolute;left:128px;top:800px;width:980px;font-family:'Space Mono', 'Courier New', monospace;font-size:24px;letter-spacing:2px;text-transform:uppercase;color:#8E8D84">Carga de projeto para o fornecedor · folga de 3×</p>
+<div data-build-in="rise 6 auto" style="position:absolute;left:128px;top:846px;width:326px;display:flex;flex-direction:column;gap:2px;border:2px solid #F9DC0A;padding:14px 18px"><p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:52px;font-weight:900;line-height:1;color:#F2F1E9">10 kg</p><p style="font-size:24px;color:#C9C8BE">por prateleira</p></div>
+<div data-build-in="rise 6 auto" style="position:absolute;left:466px;top:846px;width:326px;display:flex;flex-direction:column;gap:2px;border:2px solid #F9DC0A;padding:14px 18px"><p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:52px;font-weight:900;line-height:1;color:#F2F1E9">30 kg</p><p style="font-size:24px;color:#C9C8BE">no cesto central</p></div>
+<div data-build-in="rise 6 auto" style="position:absolute;left:804px;top:846px;width:340px;display:flex;flex-direction:column;gap:2px;border:2px solid #F9DC0A;padding:14px 18px"><p style="font-family:'Big Shoulders Display', Impact, sans-serif;font-size:52px;font-weight:900;line-height:1;color:#F2F1E9">15 kg</p><p style="font-size:24px;color:#C9C8BE">em cada cesto do braço</p></div>
+<p style="position:absolute;left:128px;bottom:40px;width:1000px;font-size:24px;line-height:1.3;color:#8E8D84">Pesos estimados: 65 g por pacote de Bombril, 50 g por pacote de esponja. Capacidade a validar com o fornecedor.</p>
+</section>
+<section class="s" data-i="3" id="encerramento" style="background:#F9DC0A;color:#101013;font-family:'Space Grotesk', Arial, sans-serif;padding:128px">
+<img src="assets/fim.jpg" alt="Detalhe do topo do móvel com testeirão e logo Bombril" style="position:absolute;left:1060px;top:0px;width:860px;height:1080px;object-fit:cover">
+<p style="position:absolute;left:128px;top:128px;width:860px;font-family:'Space Mono', 'Courier New', monospace;font-size:24px;letter-spacing:3px;text-transform:uppercase;color:#101013">Próximos passos</p>
+<h1 data-build-in="rise 1 auto" style="position:absolute;left:128px;top:180px;width:880px;font-family:'Big Shoulders Display', Impact, sans-serif;font-size:220px;font-weight:900;line-height:0.9;text-transform:uppercase;color:#101013">Obrigado</h1>
+<div data-build-in="rise 2 auto" style="position:absolute;left:128px;top:500px;width:860px;display:flex;flex-direction:row;align-items:baseline;gap:28px;border-top:2px solid #101013;padding:22px 0px 0px 0px"><p style="font-family:'Space Mono', 'Courier New', monospace;font-size:28px;font-weight:700;color:#101013">01</p><p style="font-size:36px;line-height:1.25;color:#101013">Aprovação da versão de 220 cm</p></div>
+<div data-build-in="rise 3 auto" style="position:absolute;left:128px;top:610px;width:860px;display:flex;flex-direction:row;align-items:baseline;gap:28px;border-top:2px solid #101013;padding:22px 0px 0px 0px"><p style="font-family:'Space Mono', 'Courier New', monospace;font-size:28px;font-weight:700;color:#101013">02</p><p style="font-size:36px;line-height:1.25;color:#101013">Renders finais e AR do móvel</p></div>
+<div data-build-in="rise 4 auto" style="position:absolute;left:128px;top:720px;width:860px;display:flex;flex-direction:row;align-items:baseline;gap:28px;border-top:2px solid #101013;padding:22px 0px 0px 0px"><p style="font-family:'Space Mono', 'Courier New', monospace;font-size:28px;font-weight:700;color:#101013">03</p><p style="font-size:36px;line-height:1.25;color:#101013">Executivo e versões Marcas e Nichos</p></div>
+<img src="assets/75lab-black.png" alt="75 LAB" style="position:absolute;left:128px;top:952px;width:92px;height:60px;object-fit:contain">
+<img src="assets/logo-bombril.png" alt="Bombril" style="position:absolute;left:250px;top:946px;width:124px;height:72px;object-fit:contain">
+</section>
+</main>
+<nav id="nav" aria-label="Navegação"><button id="ant" aria-label="Slide anterior">←</button><span id="pos">1 / 4</span><button id="prox" aria-label="Próximo slide">→</button></nav>
+<script>
+(function(){
+var S=[].slice.call(document.querySelectorAll('.s')),N=S.length,i=0,p=document.getElementById('palco');
+S.forEach(function(s){s.querySelectorAll('[data-build-in]').forEach(function(e){var a=e.getAttribute('data-build-in').split(' '),o=parseInt(a[1]||'1',10);e.style.setProperty('--anim',a[0]);e.style.setProperty('--d',(0.45+(o-1)*0.42)+'s');});});
+function fit(){var k=Math.min(innerWidth/1920,innerHeight/1080);p.style.transform='scale('+k+') translate(-50%,-50%)';}
+function vai(n){n=Math.max(0,Math.min(N-1,n));S[i].classList.remove('on');i=n;S[i].classList.add('on');
+document.getElementById('pos').textContent=(i+1)+' / '+N;document.getElementById('barra').style.width=((i+1)/N*100)+'%';
+S.forEach(function(s,j){s.querySelectorAll('video').forEach(function(v){if(j===i){try{v.currentTime=0;v.play();}catch(e){}}else v.pause();});});
+if(location.hash!=='#'+(i+1))history.replaceState(null,'','#'+(i+1));}
+addEventListener('resize',fit);fit();
+var h=parseInt((location.hash||'#1').slice(1),10);vai(isNaN(h)?0:h-1);
+addEventListener('hashchange',function(){var h=parseInt(location.hash.slice(1),10);if(!isNaN(h)&&h-1!==i)vai(h-1);});
+document.getElementById('ant').onclick=function(e){e.stopPropagation();vai(i-1);};
+document.getElementById('prox').onclick=function(e){e.stopPropagation();vai(i+1);};
+addEventListener('keydown',function(e){if(['ArrowRight','PageDown',' ','Enter'].indexOf(e.key)>=0){e.preventDefault();vai(i+1);}else if(['ArrowLeft','PageUp','Backspace'].indexOf(e.key)>=0){e.preventDefault();vai(i-1);}else if(e.key==='Home')vai(0);else if(e.key==='End')vai(N-1);});
+addEventListener('click',function(e){if(e.target.closest('#nav'))return;vai(e.clientX>innerWidth/3?i+1:i-1);});
+var x0=null;addEventListener('touchstart',function(e){document.body.classList.add('toque');x0=e.touches[0].clientX;},{passive:true});
+addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)vai(dx<0?i+1:i-1);x0=null;},{passive:true});
+})();
+</script>
+</body>
+</html>
